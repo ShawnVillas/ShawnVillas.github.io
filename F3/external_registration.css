@@ -19,17 +19,11 @@ h2 {
     color: #333;
 }
 
-form fieldset {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 6px;
-}
-
-legend {
-    font-weight: bold;
-    padding: 0 10px;
-    color: #555;
+h3 {
+    margin-top: 25px;
+    color: #444;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
 }
 
 label {
@@ -59,7 +53,7 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 button:hover {
