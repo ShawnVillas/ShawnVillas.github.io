@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Registration Form</title>
+    <link rel="stylesheet" href="external_registration.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Employee Registration Form</h2>
+        <form action="#" method="post">
+
+            <!-- Personal Information -->
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label>First Name:</label>
+                <input type="text" name="first_name" required>
+
+                <label>Last Name:</label>
+                <input type="text" name="last_name" required>
+
+                <label>Date of Birth:</label>
+                <input type="date" name="dob" required>
+
+                <label>Gender:</label>
+                <select name="gender" required>
+                    <option value="">--Select--</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+
+                <label>Civil Status:</label>
+                <select name="civil_status" required>
+                    <option value="">--Select--</option>
+                    <option>Single</option>
+                    <option>Married</option>
+                    <option>Widowed</option>
+                    <option>Divorced</option>
+                </select>
+
+                <label>Nationality:</label>
+                <input type="text" name="nationality" required>
+            </fieldset>
+
+            <!-- Contact Information -->
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label>Email:</label>
+                <input type="email" name="email" required>
+
+                <label>Phone Number:</label>
+                <input type="tel" name="phone" required>
+
+                <label>Address:</label>
+                <input type="text" name="address" required>
+            </fieldset>
+
+            <!-- Employment Information -->
+            <fieldset>
+                <legend>Employment Information</legend>
+
+                <label>Employee ID:</label>
+                <input type="text" name="employee_id" required>
+
+                <label>Department:</label>
+                <input type="text" name="department" required>
+
+                <label>Job Title:</label>
+                <input type="text" name="job_title" required>
+
+                <label>Date Hired:</label>
+                <input type="date" name="date_hired" required>
+
+                <label>Employment Type:</label>
+                <select name="employment_type" required>
+                    <option value="">--Select--</option>
+                    <option>Regular</option>
+                    <option>Probationary</option>
+                    <option>Contractual</option>
+                    <option>Intern</option>
+                </select>
+            </fieldset>
+
+            <!-- Emergency Contact -->
+            <fieldset>
+                <legend>Emergency Contact</legend>
+
+                <label>Contact Name:</label>
+                <input type="text" name="emergency_name" required>
+
+                <label>Relationship:</label>
+                <input type="text" name="relationship" required>
+
+                <label>Phone Number:</label>
+                <input type="tel" name="emergency_phone" required>
+            </fieldset>
+
+            <button type="submit">Register Employee</button>
+        </form>
+    </div>
+</body>
+</html>
